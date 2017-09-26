@@ -1,0 +1,198 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/main_cyl.cpp
+dolfin.h
+-
+src/Momentum.h
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/Momentum.h
+src/Continuity.h
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/Continuity.h
+src/EntropyResidual.h
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/EntropyResidual.h
+src/EntropyViscosity.h
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/EntropyViscosity.h
+src/Functionals.h
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/Functionals.h
+
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/Continuity.cpp
+Continuity.h
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/Continuity.h
+
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/Continuity.h
+stdexcept
+-
+ufc.h
+-
+string
+-
+dolfin/common/NoDeleter.h
+-
+dolfin/mesh/Mesh.h
+-
+dolfin/mesh/MultiMesh.h
+-
+dolfin/fem/FiniteElement.h
+-
+dolfin/fem/DofMap.h
+-
+dolfin/fem/Form.h
+-
+dolfin/fem/MultiMeshForm.h
+-
+dolfin/function/FunctionSpace.h
+-
+dolfin/function/MultiMeshFunctionSpace.h
+-
+dolfin/function/GenericFunction.h
+-
+dolfin/function/CoefficientAssigner.h
+-
+dolfin/function/MultiMeshCoefficientAssigner.h
+-
+dolfin/adaptivity/ErrorControl.h
+-
+dolfin/adaptivity/GoalFunctional.h
+-
+dolfin/la/GenericVector.h
+-
+
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/EntropyResidual.cpp
+EntropyResidual.h
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/EntropyResidual.h
+
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/EntropyResidual.h
+stdexcept
+-
+ufc.h
+-
+string
+-
+dolfin/common/NoDeleter.h
+-
+dolfin/mesh/Mesh.h
+-
+dolfin/mesh/MultiMesh.h
+-
+dolfin/fem/FiniteElement.h
+-
+dolfin/fem/DofMap.h
+-
+dolfin/fem/Form.h
+-
+dolfin/fem/MultiMeshForm.h
+-
+dolfin/function/FunctionSpace.h
+-
+dolfin/function/MultiMeshFunctionSpace.h
+-
+dolfin/function/GenericFunction.h
+-
+dolfin/function/CoefficientAssigner.h
+-
+dolfin/function/MultiMeshCoefficientAssigner.h
+-
+dolfin/adaptivity/ErrorControl.h
+-
+dolfin/adaptivity/GoalFunctional.h
+-
+dolfin/la/GenericVector.h
+-
+
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/EntropyViscosity.cpp
+EntropyViscosity.h
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/EntropyViscosity.h
+
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/EntropyViscosity.h
+dolfin.h
+-
+
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/Functionals.cpp
+Functionals.h
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/Functionals.h
+
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/Functionals.h
+stdexcept
+-
+ufc.h
+-
+string
+-
+dolfin/common/NoDeleter.h
+-
+dolfin/mesh/Mesh.h
+-
+dolfin/mesh/MultiMesh.h
+-
+dolfin/fem/FiniteElement.h
+-
+dolfin/fem/DofMap.h
+-
+dolfin/fem/Form.h
+-
+dolfin/fem/MultiMeshForm.h
+-
+dolfin/function/FunctionSpace.h
+-
+dolfin/function/MultiMeshFunctionSpace.h
+-
+dolfin/function/GenericFunction.h
+-
+dolfin/function/CoefficientAssigner.h
+-
+dolfin/function/MultiMeshCoefficientAssigner.h
+-
+dolfin/adaptivity/ErrorControl.h
+-
+dolfin/adaptivity/GoalFunctional.h
+-
+dolfin/la/GenericVector.h
+-
+
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/Momentum.cpp
+Momentum.h
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/Momentum.h
+
+/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/src/Momentum.h
+stdexcept
+-
+ufc.h
+-
+string
+-
+dolfin/common/NoDeleter.h
+-
+dolfin/mesh/Mesh.h
+-
+dolfin/mesh/MultiMesh.h
+-
+dolfin/fem/FiniteElement.h
+-
+dolfin/fem/DofMap.h
+-
+dolfin/fem/Form.h
+-
+dolfin/fem/MultiMeshForm.h
+-
+dolfin/function/FunctionSpace.h
+-
+dolfin/function/MultiMeshFunctionSpace.h
+-
+dolfin/function/GenericFunction.h
+-
+dolfin/function/CoefficientAssigner.h
+-
+dolfin/function/MultiMeshCoefficientAssigner.h
+-
+dolfin/adaptivity/ErrorControl.h
+-
+dolfin/adaptivity/GoalFunctional.h
+-
+dolfin/la/GenericVector.h
+-
+
