@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver
+# Install script for directory: /home/fenics/shared/ACCG3/navier_stokes_solver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,6 +27,11 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
@@ -35,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/hullberg/Desktop/Uppsala Universitet/År 5/Applied Cloud Computing/ACCProjectGroup3/navier_stokes_solver/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/fenics/shared/ACCG3/navier_stokes_solver/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

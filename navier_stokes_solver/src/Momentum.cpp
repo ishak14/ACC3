@@ -150,7 +150,7 @@ void momentum_finite_element_0::_evaluate_basis(std::size_t i,
       
       // Table(s) of coefficients
       static const double coefficients0[3] = \
-      {0.4714045207910316, -0.2886751345948129, -0.1666666666666667};
+      {0.4714045207910317, -0.2886751345948129, -0.1666666666666667};
       
       // Compute value(s)
       for (unsigned int r = 0; r < 3; r++)
@@ -355,7 +355,7 @@ void momentum_finite_element_0::_evaluate_basis_derivatives(std::size_t i,
       
       // Table(s) of coefficients
       static const double coefficients0[3] = \
-      {0.4714045207910316, -0.2886751345948129, -0.1666666666666667};
+      {0.4714045207910317, -0.2886751345948129, -0.1666666666666667};
       
       // Tables of derivatives of the polynomial base (transpose).
       static const double dmats0[3][3] = \
@@ -1033,7 +1033,7 @@ void momentum_finite_element_1::_evaluate_basis(std::size_t i,
       
       // Table(s) of coefficients
       static const double coefficients0[3] = \
-      {0.4714045207910316, -0.2886751345948129, -0.1666666666666667};
+      {0.4714045207910317, -0.2886751345948129, -0.1666666666666667};
       
       // Compute value(s)
       for (unsigned int r = 0; r < 3; r++)
@@ -1117,7 +1117,7 @@ void momentum_finite_element_1::_evaluate_basis(std::size_t i,
       
       // Table(s) of coefficients
       static const double coefficients0[3] = \
-      {0.4714045207910316, -0.2886751345948129, -0.1666666666666667};
+      {0.4714045207910317, -0.2886751345948129, -0.1666666666666667};
       
       // Compute value(s)
       for (unsigned int r = 0; r < 3; r++)
@@ -1325,7 +1325,7 @@ void momentum_finite_element_1::_evaluate_basis_derivatives(std::size_t i,
       
       // Table(s) of coefficients
       static const double coefficients0[3] = \
-      {0.4714045207910316, -0.2886751345948129, -0.1666666666666667};
+      {0.4714045207910317, -0.2886751345948129, -0.1666666666666667};
       
       // Tables of derivatives of the polynomial base (transpose).
       static const double dmats0[3][3] = \
@@ -1718,7 +1718,7 @@ void momentum_finite_element_1::_evaluate_basis_derivatives(std::size_t i,
       
       // Table(s) of coefficients
       static const double coefficients0[3] = \
-      {0.4714045207910316, -0.2886751345948129, -0.1666666666666667};
+      {0.4714045207910317, -0.2886751345948129, -0.1666666666666667};
       
       // Tables of derivatives of the polynomial base (transpose).
       static const double dmats0[3][3] = \
@@ -4043,9 +4043,9 @@ void momentum_cell_integral_0_otherwise::tabulate_tensor(double * A,
     
     // Values of basis functions at quadrature points.
     static const double FE2_C0[3][3] = \
-    {{0.6666666666666667, 0.1666666666666666, 0.1666666666666667},
+    {{0.6666666666666669, 0.1666666666666666, 0.1666666666666667},
     {0.1666666666666667, 0.1666666666666666, 0.6666666666666665},
-    {0.1666666666666666, 0.6666666666666666, 0.1666666666666666}};
+    {0.1666666666666667, 0.6666666666666666, 0.1666666666666666}};
     
     // Array of non-zero columns
     static const unsigned int nzc0[3] = {0, 1, 2};
@@ -4294,9 +4294,9 @@ void momentum_cell_integral_1_otherwise::tabulate_tensor(double * A,
     
     // Values of basis functions at quadrature points.
     static const double FE0[3][3] = \
-    {{0.6666666666666667, 0.1666666666666666, 0.1666666666666667},
+    {{0.6666666666666669, 0.1666666666666666, 0.1666666666666667},
     {0.1666666666666667, 0.1666666666666666, 0.6666666666666665},
-    {0.1666666666666666, 0.6666666666666666, 0.1666666666666666}};
+    {0.1666666666666667, 0.6666666666666666, 0.1666666666666666}};
     
     // Array of non-zero columns
     static const unsigned int nzc2[3] = {0, 1, 2};
