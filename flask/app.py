@@ -10,5 +10,10 @@ def air(xml):
                 data = result.readlines()
                 return json.dumps(data)
 
-if __name__ == "__main__":
-        app.run(host='0.0.0.0')
+
+@app.route('/')
+def hello_world():
+    return 'Flask Dockerized'
+
+if __name__ == '__main__':
+    app.run(debug=True,host='0.0.0.0')
